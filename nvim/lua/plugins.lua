@@ -27,4 +27,8 @@ return require('packer').startup(function()
 --
 	use 'crispybaccoon/aurora'
 --
+	use 'rust-lang/rust.vim'
+--
+	use 'dense-analysis/ale'
+--
 end)

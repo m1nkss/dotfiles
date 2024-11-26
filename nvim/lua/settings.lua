@@ -8,8 +8,8 @@ vim.o.tabstop = 4
 vim.o.backup = false
 vim.o.swapfile = false
 vim.o.mouse = ''
-vim.cmd('syntax on')
+--vim.cmd('syntax on')
 vim.cmd('filetype plugin indent on')
 vim.cmd('highlight CursorLine guibg=#3c3836')
 vim.cmd('highlight CursorLine ctermbg=237')
-vim.cmd.colorscheme "aurora"
+vim.cmd.colorscheme "catppuccin"

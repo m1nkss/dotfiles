@@ -42,7 +42,7 @@ Open Vim and run the following command:
 
 :PlugInstall
 
-Contributing
+## Contributing
 
 Feel free to fork this repository and submit pull requests or open issues if you have any suggestions or improvements.
 License

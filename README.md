@@ -44,10 +44,6 @@ Open Vim and run the following command:
 ## Contributing
 
 Feel free to fork this repository and submit pull requests or open issues if you have any suggestions or improvements.
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgements
 
     Thanks to vim-plug for making plugin management in Vim a breeze.
 

@@ -17,11 +17,11 @@ Welcome to my dotfiles repository! Here you'll find my personal configuration fi
 
 2. **Navigate to the cloned directory:**
 
-cd dotfiles
+   ```cd dotfiles```
 
 3. **Copy the configuration files to your home directory:**
 
-cp .vimrc ~/
+```cp .vimrc ~/```
 
 ## Usage
 

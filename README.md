@@ -8,7 +8,6 @@ Welcome to my dotfiles repository! Here you'll find my personal configuration fi
 - [Usage](#usage)
 - [Plugin Management](#plugin-management)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 

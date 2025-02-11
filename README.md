@@ -16,15 +16,15 @@ Welcome to my dotfiles repository! Here you'll find my personal configuration fi
    ```sh
    git clone https://github.com/m1nkss/dotfiles.git
 
-Navigate to the cloned directory:
+2. **Navigate to the cloned directory:**
 
 cd dotfiles
 
-Copy the configuration files to your home directory:
+3. **Copy the configuration files to your home directory:**
 
 cp .vimrc ~/
 
-Usage
+## Usage
 
 To use these configuration files, simply follow the installation steps above. The .vimrc file will configure Vim according to my personal preferences. Feel free to customize it further to suit your needs.
 Plugin Management

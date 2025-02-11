@@ -21,7 +21,7 @@ Welcome to my dotfiles repository! Here you'll find my personal configuration fi
 
 3. **Copy the configuration files to your home directory:**
 
-```cp .vimrc ~/```
+   ```cp .vimrc ~/```
 
 ## Usage
 

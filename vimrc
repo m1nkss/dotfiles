@@ -25,3 +25,6 @@ call plug#begin()
 call plug#end()
 
 colorscheme onehalfdark
+autocmd BufRead,BufNewFile *.c if expand('%:p:h') =~ 'cursus42' | execute 'Stdheader' | endif
+let g:user42 = 'mameerbe'
+let g:mail42 = 'mameerbe@student.s19.be'

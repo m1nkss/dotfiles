@@ -16,4 +16,4 @@ git clone https://github.com/42paris/42header.git
 cd 42header
 bash set_headers.sh
 cd ..
-rm 42header
+rm -rf 42header

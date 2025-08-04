@@ -43,8 +43,8 @@ require("lazy").setup({
         opts = {
             default_map = true, -- Default mapping <F1> in normal mode.
             auto_update = true, -- Update header when saving.
-            user = "mameerbe", -- Your user.
-            mail = "mameerbe@student.s19.be", -- Your mail.
+            user = "", -- Your user.
+            mail = "", -- Your mail.
             -- add other options.
         },
         config = function(_, opts)

@@ -1,3 +1,5 @@
 Hello this is my repo for my configuration for dev and fun !
 
 for install my configuration of vim  -> bash configuration_for_vim/install.sh
+
+for install my configuration of neovim just copy the folder nvim in ~/.config/nvim

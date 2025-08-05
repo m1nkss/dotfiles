@@ -43,12 +43,30 @@ require("lazy").setup({
         opts = {
             default_map = true, -- Default mapping <F1> in normal mode.
             auto_update = true, -- Update header when saving.
-            user = "", -- Your user.
-            mail = "", -- Your mail.
+            user = "mameerbe", -- Your user.
+            mail = "mameerbe@student.s19.be", -- Your mail.
             -- add other options.
         },
         config = function(_, opts)
             require("42header").setup(opts)
+        end,
+    },
+    {
+        "nvim-telescope/telescope.nvim",
+        tag = "0.1.6",
+        dependencies = { "nvim-lua/plenary.nvim" }
+    },
+    {
+        "lukas-reineke/indent-blankline.nvim",
+        main = "ibl",
+        opts = {},
+    },
+    {
+        "nvim-tree/nvim-tree.lua",
+        version = "*",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        config = function()
+            require("nvim-tree").setup({})
         end,
     },
 

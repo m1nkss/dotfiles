@@ -5,5 +5,12 @@ set autoindent
 set cursorline
 set wildmenu
 set noswapfile
+set termguicolors
+let ayucolor="dark"
 syntax on
-colorscheme slate
+
+call plug#begin()
+	Plug 'ayu-theme/ayu-vim'
+call plug#end()
+
+colorscheme ayu

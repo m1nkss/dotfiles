@@ -6,11 +6,23 @@ set cursorline
 set wildmenu
 set noswapfile
 set termguicolors
+set smartindent
+set scrolloff=5
+set laststatus=2
+
+let g:lightline = {
+      \ 'colorscheme': 'ayu',
+      \ }
+
 let ayucolor="dark"
 syntax on
 
 call plug#begin()
 	Plug 'ayu-theme/ayu-vim'
+	Plug 'preservim/nerdtree'
+	Plug 'ryanoasis/vim-devicons'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'itchyny/lightline.vim'
 call plug#end()
 
 colorscheme ayu
